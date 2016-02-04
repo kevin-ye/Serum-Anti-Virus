@@ -1,0 +1,30 @@
+Unit Unit5;
+
+Interface
+
+Uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, SkinCtrls, DynamicSkinForm;
+
+Type
+  TForm5 = Class(TForm)
+    spDynamicSkinForm1: TspDynamicSkinForm;
+    spSkinButton1: TspSkinButton;
+    spSkinButton2: TspSkinButton;
+    spSkinCheckRadioBox1: TspSkinCheckRadioBox;
+    spSkinCheckRadioBox2: TspSkinCheckRadioBox;
+  Private
+    { Private declarations }
+  Public
+    { Public declarations }
+  End;
+
+Var
+  Form5: TForm5;
+
+Implementation
+
+Uses Unit1;
+{$R *.dfm}
+
+End.

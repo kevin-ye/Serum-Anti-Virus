@@ -1,0 +1,64 @@
+unit Unit3;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs,ShellAPI, DynamicSkinForm, SkinExCtrls, SkinCtrls;
+
+type
+  TForm3 = class(TForm)
+    spDynamicSkinForm1: TspDynamicSkinForm;
+    spSkinLabel1: TspSkinLabel;
+    spSkinLabel2: TspSkinLabel;
+    spSkinLabel3: TspSkinLabel;
+    spSkinAnimateGauge1: TspSkinAnimateGauge;
+    spSkinLabel4: TspSkinLabel;
+    spSkinButton1: TspSkinButton;
+    spSkinButton2: TspSkinButton;
+    procedure FormCreate(Sender: TObject);
+    procedure spSkinButton2Click(Sender: TObject);
+    procedure spSkinButton1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure typeform;
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+uses Unit1;
+
+{$R *.dfm}
+
+procedure TForm3.FormCreate(Sender: TObject);
+begin
+  typeform;
+end;
+
+procedure TForm3.spSkinButton1Click(Sender: TObject);
+begin
+  Form3.Hide;
+end;
+
+procedure TForm3.spSkinButton2Click(Sender: TObject);
+begin
+  Form3.Hide;
+  Form1.Show;
+end;
+
+procedure Tform3.typeform;
+var
+  abd:TAppBarData;
+begin
+  abd.cbSize:=sizeof(abd);
+  SHAppBarMessage(ABM_GETTASKBARPOS,abd);
+  //定位到屏幕右下角
+  Top := Screen.Height-form3.Height-abd.rc.Bottom+abd.rc.Top;
+  Left := Screen.Width-form3.Width;
+end;
+
+end.

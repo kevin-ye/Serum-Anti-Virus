@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009-12-06 14:39:23.552.pas,C:\Users\Ye_Vista\Documents\RAD Studio\Projects\Unit1.pas=F:\工程\Serum Anti-Virus V1.0\Unit1.pas</Transaction>
+    <Transaction>2009-12-06 14:39:23.552.dfm,C:\Users\Ye_Vista\Documents\RAD Studio\Projects\Unit1.dfm=F:\工程\Serum Anti-Virus V1.0\Unit1.dfm</Transaction>
+    <Transaction>2009-12-06 14:39:24.821.dproj,C:\Users\Ye_Vista\Documents\RAD Studio\Projects\Project1.dproj=F:\工程\Serum Anti-Virus V1.0\Project1.dproj</Transaction>
+    <Transaction>2009-12-20 14:35:57.939.dproj,F:\工程\Serum Anti-Virus V1.0\Project1.dproj=F:\工程\Serum Anti-Virus V1.0\SAV.dproj</Transaction>
+    <Transaction>2011/10/29 22:35:45.636.pas,C:\Users\YeCode\Desktop\光碟\cd\Serum Anti-Virus\Unit4.pas=</Transaction>
+    <Transaction>2011/10/29 22:35:45.636.dfm,C:\Users\YeCode\Desktop\光碟\cd\Serum Anti-Virus\Unit4.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

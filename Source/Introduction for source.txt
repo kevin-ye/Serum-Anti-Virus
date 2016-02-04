@@ -1,0 +1,7 @@
+SAV.dpr ----project file
+unit1.pas ----mainform unit
+unit2.pas ----about form
+unit3.pas ----note form
+unit5.pas ----settings form
+----------------------------------------------------
+This project need a Delphi 2010 developing environment and DynamicSkinForm package supported.
